@@ -1,0 +1,19 @@
+{
+  "name": "lecture5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cardTemplate.js",
+  "scripts": {
+    "start" : "node serverQuery.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashus5887/Node-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashus5887/Node-Project/issues"
+  },
+  "homepage": "https://github.com/ashus5887/Node-Project#readme"
+}
