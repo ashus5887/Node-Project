@@ -68,7 +68,7 @@ var server = http.createServer(function (req, res) {
     }
     res.end();
 })
-var port = process.env.port || 3000;//Done for Heroku
+var port = process.env.PORT || 3000;//Done for Heroku
 server.listen(port, function () {
     console.log("Server is listening at port 3000 :)");
 })
