@@ -36,6 +36,7 @@ var server = http.createServer(function (req, res) {
             newCard = newCard.replace(/{quantity}/g, json[i].quantity)
             newCard = newCard.replace(/{price}/g, json[i].price)
             newCard = newCard.replace(/{image}/g, json[i].image)
+            newCard = newCard.replace(/{%ID%}/g, json[i])
             myCard = myCard + newCard;
         }
          

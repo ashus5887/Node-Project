@@ -15,7 +15,7 @@ module.exports = function(){
         <h6 class="card__detail card__detail--price">{price}</h6>
       </div>
     </div>
-    <a class="card__link" href="#">
+    <a class="card__link" href= "/product?id={%ID%}">
       <span>Detail <i class="emoji-right">👉</i></span>
     </a>
   </figure>`
